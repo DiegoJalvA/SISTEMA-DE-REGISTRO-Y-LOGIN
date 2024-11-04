@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        .form-container { max-width: 300px; margin: auto; }
+        .message { color: red; }
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Inicio de Sesión</h2>
+    <form id="loginForm" onsubmit="return validarUsuario(event)">
+        <label for="usuario">Usuario:</label>
+        <input type="text" id="usuario" required>
+        <br><br>
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" required>
+        <br><br>
+        <button type="submit">Iniciar Sesión</button>
+    </form>
+    <p class="message" id="mensaje"></p>
+    <a href="#" onclick="registrarUsuario()">¿No tienes una cuenta? Regístrate aquí.</a>
+</div>
+
+<script src="script.js"></script> <!-- Enlace al archivo script.js -->
+</body>
+</html>
