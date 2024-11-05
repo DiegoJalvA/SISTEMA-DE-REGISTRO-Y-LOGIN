@@ -1,4 +1,5 @@
 SISTEMA DE REGISTRO Y LOGIN
+
 Este proyecto es una página web sencilla que permite a los usuarios registrarse y hacer login. La aplicación verifica las credenciales de los usuarios existentes y permite registrar nuevos usuarios mediante un sistema de almacenamiento en memoria.
 
 CARACTERISTICAS:
