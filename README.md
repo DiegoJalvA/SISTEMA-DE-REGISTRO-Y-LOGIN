@@ -12,9 +12,13 @@ CARACTERISTICAS:
 ESTRUCTURA DEL PROYECTO:
 
 ├── index.html          # Página principal de inicio de sesión
+
 ├── dashboard.html      # Página de bienvenida después del login
+
 ├── script.js           # Archivo JavaScript con la lógica de registro y validación
+
 ├── style.css           # Archivo CSS para el estilo de la página (opcional)
+
 └── README.md           # Documentación del proyecto
 
 CODIG JavaScript PRINCIPAL (script.js)
