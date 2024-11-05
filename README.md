@@ -43,6 +43,9 @@ Este proyecto almacena los datos de usuario en una variable de JavaScript, lo qu
 Para almacenar los usuarios de manera persistente, considera integrar una base de datos o utilizar localStorage.
 
 MEJORAS FUTURAS
+
     Integrar un sistema de almacenamiento persistente.
+    
     Añadir validaciones de seguridad como cifrado de contraseñas.
+    
     Mejorar la interfaz de usuario y el flujo de registro/login.
