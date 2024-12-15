@@ -1,4 +1,4 @@
-// script.js
+
 let usuarios = [
     { usuario: "user1", contrasena: "pass1" },
     { usuario: "user2", contrasena: "pass2" }
